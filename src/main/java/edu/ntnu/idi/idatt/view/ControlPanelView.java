@@ -55,13 +55,13 @@ public class ControlPanelView extends HBox{
     sumValueLabel = new Label("0");
     sumValueLabel.getStyleClass().add("valueLabel");
 
-    heartsValueLabel = new Label("❌");
+    heartsValueLabel = new Label("0");
     heartsValueLabel.getStyleClass().add("valueLabel");
 
-    queenValueLabel = new Label("❌");
+    queenValueLabel = new Label("0");
     queenValueLabel.getStyleClass().add("queenValueLabel");
 
-    flushValueLabel = new Label("❌");
+    flushValueLabel = new Label("0");
     flushValueLabel.getStyleClass().add("flushValueLabel");
 
     GridPane statsPane = new GridPane();

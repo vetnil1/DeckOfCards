@@ -24,7 +24,7 @@ public class CardGame extends Application {
   public void start(Stage primaryStage) {
     CardGameView cardGameView = new CardGameView();
 
-    Scene scene = new Scene(cardGameView.getView(), 800, 600);
+    Scene scene = new Scene(cardGameView.getView(), 1080, 720);
     scene.getStylesheets().add("stylesheets/project.css");
     primaryStage.setTitle("Card Game");
     primaryStage.setScene(scene);

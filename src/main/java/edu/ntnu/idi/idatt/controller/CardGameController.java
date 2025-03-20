@@ -33,7 +33,7 @@ public class CardGameController {
   }
 
   /**
-   * init's views card game view
+   * inits views card game view
 
    */
   public void initViews(CardGameView cardGameView) {
